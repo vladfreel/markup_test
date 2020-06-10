@@ -1,0 +1,129 @@
+@font-face {font-family: "Avenir Book"; src: url("http://db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.eot"); 
+  src: url("http://db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.eot?#iefix") format("embedded-opentype"), 
+  url("http://db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.woff2") format("woff2"), 
+  url("http://db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.woff") format("woff"), 
+  url("http://db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.ttf") format("truetype"), 
+  url("http://db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.svg#Avenir Book") format("svg"); }
+
+@font-face {font-family: "Avenir Black";
+  src: url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.eot");
+  src: url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/275de2221d9f0c4c9257d17f5a1e4006.svg#Avenir Black") format("svg"); }
+
+@font-face {font-family: "Avenir Heavy"; 
+  src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot"); 
+  src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.svg#Avenir Heavy") format("svg"); }
+
+.heading{
+  color: rgb(47, 55, 79);
+  font-family: "Avenir Heavy", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1.09px;
+  width: 151px;
+}
+
+.block{
+  height: 79px;
+}
+
+.text{
+  color: rgb(187, 187, 187);
+  font-family: "Avenir Book", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1.36px;
+}
+
+.table td{
+  vertical-align: middle;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  text-align: left;
+}
+
+.table tr:hover{
+  background: rgb(223, 231, 255);
+}
+
+.table tr:hover td .heading{
+  font-family: "Avenir Black", sans-serif;
+}
+
+.table {
+  width: 1372px;
+}
+
+.first-block{
+  width: 8%;
+}
+.second-block{
+  width: 14%;
+}
+.third-block{
+  width: 39%;
+}
+.fourth-block{
+  width: 31%;
+}
+.fifth-block{
+  width: 8%;
+  border-right: 1px solid #979797;
+}
+
+.header-block{
+  width: 1372px;
+  height: 78px;
+  border-right: 1px solid #979797;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main{
+  color: rgb(0, 0, 0);
+  font-family: Avenir-Black;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 0.26px;
+  padding-left: 10px;
+}
+
+.button-test{
+  color: rgb(151, 151, 151);
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(151, 151, 151);
+  height: 30px;
+  width: 183px;
+  font-family: Avenir-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.38px;
+  text-align: center;
+}
+.button-test:hover{
+  background: #979797;
+  color: rgb(255, 255, 255);
+}
+
+.button-group{
+  margin-right: 30px;
+}
+
+.link{
+  color: rgb(54, 109, 240);
+  font-size: 15px;
+  font-family: Avenir-Heavy;
+  font-weight: 900;
+  letter-spacing: 1.36px;
+  line-height: 30px;
+}
